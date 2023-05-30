@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style/style.css"/>
+    <script src="./scripts/script_1.js" defer></script>
+</head>
+<body>
+    <div id="head_logo">
+        <a href="home.html"><img id="logo" src="./Images/Picture1.png" alt="LogoImage"></a>
+    
+        <h3 id="head_title">Digbeth Vita</h3>
+    
+        <button id="changeColorBtn"
+                onclick="changeColor()">Change Color</button>
+        <input  type="color" 
+                id="colorPicker"/>
+    </div>
+    <!--header section-->
+    <header id="header">
+        <div>
+            
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="sightloss.html">Sight Loss</a></li>
+                <li><a href="hearingloss.html">Hearing Loss</a></li>
+                <li><a href="mobilityloss.html">Mobility Issues</a></li>
+                <li><a href="difficultyTyping.html">Difficulty Typing</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                
+            </ul>
+            <div id="lines">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        
+    </header>
+
+    <div id="s_nav">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+                <li><a href="sightloss.html">Sight Loss</a></li>
+                <li><a href="hearingloss.html">Hearing Loss</a></li>
+                <li><a href="mobilityloss.html">Mobility Issues</a></li>
+                <li><a href="difficultyTyping.html">Difficulty Typing</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <!--end header section-->
+	
+	
+	<!--mid content section-->
+	<div id="contact_mid_content">
+	    <div id="contact_mid_content_1">
+            <h3>Contact Us</h3>
+            <p>We appreciate your interest in our charitable organization. If you have any questions, feedback, or would like to get involved, please don't hesitate to reach out to us. We are here to assist you and provide the information you need.</p>
+        </div>
+        <div id="contact_mid_content_2">
+            <div><h4>I have enquiry</h4></div>
+            <div><h4>I need help</h4></div>
+            <div><h4>I need advice</h4></div>
+        </div>
+        <div id="contact_mid_content_3">
+            <div id="contact_mid_content_3_submit">
+                <form action="mailto:hello@sccb.ac.uk"
+                        method="post"
+                        enctype="text/plain">
+                    <label for="name">Full name</label><br><br>
+                    <input  name="name"
+                            type="text"
+                            id="name"
+                            ><br><br><br>
+                    <label  for="phone"
+                            >Phone number</label><br><br>
+                    <input  name="phone"
+                            type="text"
+                            id="phone"
+                            ><br><br><br>
+                    <label  for="message"
+                            >Message</label><br><br>
+                    <textarea name="message"
+                                id="message"></textarea><br><br>
+
+                    <input type="submit" value="Send" id="send"/>
+                    <input type="reset" value="Reset" id="reset"/>
+                </form>
+
+            </div>
+            <div id="contact_mid_content_3_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2430.2074326717643!2d-1.8888508238066297!3d52.47537982204954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc80b78be089%3A0x6fe1f130e83ab3a8!2sFloodgate%20St%2C%20Deritend%2C%20Birmingham%20B5%205SU!5e0!3m2!1sen!2suk!4v1685195915353!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+	</div>
+    <!--end mid content section-->
+	
+	<!--footer section-->
+    <footer id="footer">
+        <div id="part3">
+            <section id="footer_contact">
+                <label>Phone Number</label><br><br>
+                <!--<input type="text"><br>-->
+				<label>0121 694 5000</label><br><br><br>
+				
+
+                <label>Email</label><br><br>
+                <!--<input type="email"/><br>-->
+                <label>hello@sccb.ac.uk</label>
+            </section>
+        </div>
+        <div id="part2">
+            <a href="https://www.fundraisingpreference.org.uk/home?gclid=EAIaIQobChMI7b6YxqWL_wIVsAkGAB0hkgm_EAAYASAAEgKjuPD_BwE">NCF Charity Fund</a>
+			<label> FR Fundraising</label>
+            <label>copyright vita 2023</label>
+        </div>
+        <div id="part1">
+            <img src="./Images/img_footer_1.png" alt="youtube" />
+            <img src="./Images/img_footer_2.png" alt="twitter" />
+            <img src="./Images/img_footer_3.png" alt="facebook"/>
+        </div>
+        
+    </footer>
+    <!--end footer section-->
+</body>
+</html>

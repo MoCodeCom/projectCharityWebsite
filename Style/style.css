@@ -1,0 +1,837 @@
+body{
+    padding: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/*---------------------------------------------------------------header part -------------*/
+#head_logo{
+	display:flex;
+}
+#head_title{
+	display:flex;
+	width:100%;
+	justify-content:center;
+}
+header{
+    text-align: right;
+    background-color: rgb(0, 0, 0);
+    height: 90px;
+}
+
+header div{
+    display: inline;
+    padding: 0px;
+	
+}
+
+header div ul{
+    display: flex;
+    /*float: center;*/
+	text-align:center;
+    /*margin: 0px 40px 0px 0px;*/
+	justify-content:center;
+    height: 100%;
+    
+}
+
+header div ul li{
+    border: 0px;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding:0px;
+
+}
+
+header div ul li a{
+    display: flex;
+    text-decoration: none;
+    color: beige;
+    margin: 0px;
+    height: 100%;
+    align-items: center;
+    padding:0px 10px 0px 10px;
+    border: solid 2px white;
+    
+}
+/*
+header div ul li a img{
+    width: 30px;
+
+}*/
+
+#changeColorBtn{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+header div ul li a:hover{
+    color:black;
+    background-color: beige;
+    margin: 0px;
+}
+
+/*---------------------------------------------------sub navbar-----------------*/
+
+#lines{
+    position: absolute;
+    visibility: hidden;
+    display: grid;
+    right:50px;
+    margin-top: -80px;
+    text-align: center;
+}
+
+#lines div{
+    position: relative;
+    float: right;
+    width: 30px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 4px 0px;
+}
+
+
+#s_nav{
+    display: none;
+    position: absolute;
+    padding:0px;
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 20%;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+}
+
+#s_nav ul{
+    display: block;
+    list-style-type: none;
+    padding:0px;
+}
+
+#s_nav ul li{
+    margin: 0px;
+    padding-top: 25px;
+    height: 40px;
+}
+#s_nav ul li:hover{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+#s_nav ul li a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#s_nav ul li a:hover{
+    
+    color: rgb(0, 0, 0);
+}
+
+#s_nav ul li button{
+    width: 80%px;
+
+}
+
+header div ul li button{
+    height: 80%;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+#logo{
+    float: left;
+    width: 80px;
+    height: 90px;
+}
+
+#btn6{
+    margin-left: 30px;
+}
+
+#homepagebody{
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 30px auto auto auto;
+}
+
+#homeimg{
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+#homepagebody label{
+    position:absolute;
+    right: 0;
+    margin-top: 20%;
+    margin-right: 10%;
+    color: white;
+    font-size: 26px;
+    width: 500px;
+    background-color: black;
+    padding: 5px;
+}
+
+#btndonate{
+    position:absolute;
+    bottom: unset;
+    right: 0;
+    margin-top: 30%;
+    margin-right: 10%;
+    width: 13%;
+    height: 30px;
+    border-radius: 9px;
+    border:0px;
+    background-color: rgb(252, 251, 251);
+    color: rgb(0, 0, 0);
+}
+
+
+
+#btnreadmore{
+    position:absolute;
+    bottom: unset;
+    right: 0;
+    margin-top: 30%;
+    margin-right: 25%;
+    width: 13%;
+    height: 30px;
+    border-radius: 9px;
+    border:0px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#btnreadmore:hover{
+    background-color: white;
+    color: black;
+}
+
+#searchinput{
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 10px;
+    width: 30%;
+    height: 30px;
+    right: 0;
+}
+
+#q_title{
+	display:flex;
+	justify-content:center;
+}
+
+/*------------------------------------------------------------- body section ------------------*/
+
+#section2{
+    margin-top: 38%;
+    padding: 3px;
+    
+}
+
+#welcomesection-title{
+    text-align: center;
+    background-color:transparent;
+    color: white;
+}
+
+#welcomesection{
+    text-align: justify;
+	margin-top:10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #535366;
+    color: white;
+    padding: 5px 10% 10px 10%;
+    line-height: 1.5;
+    
+}
+
+
+#contextsection{
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+
+#newssection{
+    background-color: white;
+    border: 0px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+#newssection img{
+    width: 400px;
+}
+#newssection h4{
+    background-color: transparent;
+    text-align: center;
+    font-size: 15px;
+}
+#newssection p{
+    margin: 10px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
+#welcome_sectoin_btn{
+    width: 13%;
+    height: 30px;
+    border-radius: 9px;
+    border:0px;
+}
+
+#welcome_sectoin_btn:hover{
+    color: white;
+    background-color: #535366;
+    border:2px solid white;
+}
+
+
+
+
+
+
+/*----------------------------------------------footer part-----------------------------*/
+
+footer{
+    display: flex;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    height: 200px;
+    background-color: black;
+    justify-content: space-between;
+}
+footer #part1{
+    position: relative;
+    margin-top: 20px;
+    color: white;
+}
+
+footer #part1 img{
+    width: 50px;
+    border-radius: 50%;
+    margin: auto 20px auto 20px;
+}
+
+footer #part1 img:hover{
+    width: 45px;
+    border: solid 5px rgb(255, 138, 138);
+    opacity: 85%;
+}
+
+footer #part2{
+    color: white;
+    display:grid;
+}
+
+footer #part2 a{
+    text-decoration: none;
+    color: white;
+}
+
+footer #part3{
+
+}
+
+footer #part3 section label{
+    color: white;
+    width: 100%;
+
+}
+
+footer #part3 section input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer #part3 section button{
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+
+/*----------------------------------------responsive----------------------------------*/
+
+@media only screen and (max-width:1000px) {
+    header ul li a {
+        font-size: 12px;
+    }
+
+
+    
+    #homepagebody label{
+        font-size: 16px;
+    }
+    #contextsection{
+        display: inline-block;
+    }
+
+    #newssection{
+        width: 100%;
+        text-align: center;
+    }
+
+    #newssection img{
+        text-align: center;
+    }
+
+    #welcome_sectoin_btn{
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width:850px) {
+	#q_title{
+		font-size:13px;
+		margin:0px;
+		display:flex;
+		justify-content:center;
+	}
+    header div ul{
+        visibility: hidden;
+    }
+
+    header div #lines{
+        visibility: visible;
+    }
+    
+    #homepagebody label{
+        display: none;
+    }
+
+    #serivcessection_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer{
+        display: grid;
+        height: auto;
+        text-align:center;
+        justify-content: center;
+        
+    }
+
+    footer #part1{
+        margin: 30px auto 30px auto ;
+    }
+    
+    footer #part2{
+        margin: 30px auto 30px auto ;
+    }
+
+    footer #part2 a{
+        margin-bottom:20px ;
+    }
+
+    footer #part3{
+        margin: 30px auto 30px auto ;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    #btndonate{
+        margin-top: 70px;
+        width: 100px;
+    }
+
+    #btnreadmore{
+        margin-top: 70px;
+        margin-right: 58%;
+        width: 100px;
+        
+    }
+
+    #s_nav{
+        width: 200px;
+        margin-left: 10%;
+    }
+
+    #s_nav ul li a{
+        font-size: 12px;
+    }
+
+    #s_nav ul li{
+        padding-top: 10px;
+        height: 30px;
+    }
+}
+
+
+
+/*------------------------------ sight loss page -----------------------------------*/
+
+#signtloss_content_1{
+    padding: 30px 70px 30px 70px;	
+}
+
+#signtloss_content_1 p{
+	line-height:22px;
+    text-align: justify;
+}
+
+#sightloss_content_2{
+    margin-right: 30px;
+}
+
+#sightloss_content_2 p{
+    line-height:22px;
+    text-align: justify;
+}
+
+#sightloss_vedio{
+	text-align:center;
+}
+
+#sightloss_vedio iframe{
+    width:500px;
+    height:350px;
+}
+
+#sightloss_img{
+	
+	padding:5px;
+}
+#sightloss_img img{
+	width:700px;
+}
+
+#sightloss_secound_section{
+	display:inline-flex;
+	padding: 30px 70px 30px 70px;
+	justify-content:center;
+}
+
+@media only screen and (max-width:1300px) {
+	#sightloss_img img{
+	width:400px;
+    }
+	
+	
+	
+	#sightloss_content_2{
+		margin: 30px 70px 30px 30px;
+	}
+}
+@media only screen and (max-width:1300px) {
+	#sightloss_img{
+	 text-align:center;
+	}
+	#sightloss_img img{
+	width:400px;
+    }
+
+    #sightloss_secound_section{
+	display:unset;
+	
+    }
+	
+}
+
+/*--------------------- hearing loss --------------------------------*/
+
+#hearingloss_mid_content{
+    margin: 50px;
+}
+
+#hearingloss_content_1{
+    display: flex;
+}
+
+#hearingloss_content_1 div p{
+    text-align: justify;
+    text-justify:inter-word;
+    line-height: 22px;
+}
+
+#hearingloss_content_1 img{
+    margin-right: 20px;
+}
+
+#hearingloss_content_2{
+    display: flex;
+    margin-top: 50px;
+}
+
+#hearingloss_content_2 div{
+    margin-right: 20px;
+    width: 500px;
+}
+
+#hearingloss_content_2 div p{
+    text-align: justify;
+    text-justify:inter-word;
+    line-height: 22px;
+}
+#hearingloss_content_3{
+    display: flex;
+    margin-top: 50px;
+}
+
+#hearingloss_content_2 iframe{
+    width:900px; 
+    height:400px;
+}
+
+#hearingloss_content_3 div{
+    margin-left: 30px;
+}
+
+#hearingloss_content_3 div p{
+    text-align: justify;
+    text-justify:inter-word;
+    line-height: 22px;
+}
+
+@media only screen and (max-width:1200px) {
+    #hearingloss_content_2{
+        display: block;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    #hearingloss_content_3{
+        display: unset;
+        margin-top: 50px;
+    }
+    #hearingloss_content_3 img{
+        width: 300px;
+        height: 300px;
+    }
+
+    #hearingloss_content_2 iframe{
+        width:500px;
+        height:350px;
+    }
+
+    
+}
+
+/*-------------------------- Mobility issues ----------------------------------------*/
+#mobilityissue_mid_content{
+    padding: 30px 70px 30px 70px;	
+}
+
+#mobilityissue_content_1 p{
+    line-height: 22px;
+    text-justify:inter-word;
+    line-height: 22px;
+}
+
+#mobilityissue_vedio{
+    margin-top: 50px;
+    margin-bottom:50px;
+    text-align: center;
+
+}
+
+#mobilityissue_content_2{
+    display: flex;
+}
+
+#mobilityissue_content_2 div p{
+    text-align: justify;
+    text-justify:inter-word;
+    line-height: 22px;
+}
+
+#mobilityissue_content_2 #mobilityissue_content{
+    margin-right: 30px;
+}
+
+#mobilityissue_content_2 img{
+    width: 70%;
+    height: 60%;
+}
+
+@media only screen and (max-width:1200px) {
+    #mobilityissue_content_2{
+        display: unset;
+    }
+
+    #mobilityissue_content_2 img{
+        width: 300px;
+        height: 250px;
+    }
+}
+
+/*--------------------------------diffeculty typing -------------------*/
+#difficultytyping_content{
+    padding: 30px 70px 30px 70px;
+}
+
+#difficultytyping_content_1{
+
+}
+
+#difficultytyping_content p{
+    text-align: justify;
+    text-justify:inter-word;
+    line-height: 22px;
+}
+
+#difficultytyping_content_2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#difficultytyping_content_2 p{
+    text-align: justify;
+    text-justify:inter-word;
+    line-height: 22px;
+}
+
+#difficultytyping_content_3{
+    display: flex;
+}
+
+#difficultytyping_content_3 p{
+    margin-right: 30px;
+    text-align: justify;
+    text-justify:inter-word;
+    line-height: 22px;
+}
+
+@media only screen and (max-width:1200px) {
+    #difficultytyping_content_3{
+        display: unset;
+    }
+
+    #difficultytyping_content_3 img{
+        width: 350px;
+        margin-left: 35%;
+    }
+
+}
+
+/*------------------------------ contact us ----------------------*/
+
+#contact_mid_content{
+    padding: 30px 70px 30px 70px;
+}
+
+#contact_mid_content p{
+    text-align: justify;
+    text-justify:inter-word;
+    line-height: 22px;
+}
+
+#contact_mid_content_2{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+#contact_mid_content_2 div{
+    height:150px;
+    width: 150px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 90px;
+    text-align: center;
+}
+
+#contact_mid_content_2 div h4{
+    color:white;
+    flex-wrap: wrap;
+    margin-top: 40%;
+    
+}
+
+#contact_mid_content_3{
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact_mid_content_3_map{
+    border: 2px solid black;
+    width: 100%;
+}
+
+#contact_mid_content_3_map iframe{
+    width: 99%;
+}
+
+#contact_mid_content_3_submit{
+    width: 100%;
+}
+
+#contact_mid_content_3_submit form input{
+    width: 70%;
+    height: 30px;
+}
+
+#contact_mid_content_3_submit textarea{
+    width: 70%;
+    height: 150px;
+}
+
+#contact_mid_content_3_submit form label{
+    width: 100%;
+    height: 30px;
+    color:black;
+}
+
+#send{
+    width: 70%;
+    height: 30px;
+    color: white;
+    background-color: rgb(29, 90, 36);
+}
+
+#reset{
+    width: 70%;
+    height: 30px;
+    color: white;
+    background-color: rgb(88, 29, 29);
+    margin-top: 15px;
+}
+
+
+
+
+
+@media only screen and (max-width:1200px) {
+    #contact_mid_content_3{
+        display: block;
+        /*text-align: center;*/
+    }
+
+
+    #contact_mid_content_3_map{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    
+}
